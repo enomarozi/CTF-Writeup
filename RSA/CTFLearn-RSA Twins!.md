@@ -1,4 +1,4 @@
-<h1>RSA Beginner</h1>
+<h1>RSA Twins!</h1>
 <p align="center">
 	<img src="https://github.com/enomarozi/RSA-CTF-Writeup/blob/master/RSA/Image/RSA%20Twins!.png">
 </p>
