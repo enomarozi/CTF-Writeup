@@ -1,6 +1,6 @@
 <h1>RSA Beginner</h1>
 <p align="center">
-	<img src="https://github.com/enomarozi/RSA-CTF-Writeup/blob/master/RSA/RSA%20Beginner.png">
+	<img src="https://github.com/enomarozi/RSA-CTF-Writeup/blob/master/RSA/Image/RSA%20Beginner.png">
 </p>
 <p>pada soal diberikan e,c dan n yang sifatnya publik, dan kita diminta untuk me-decrypt cipher tersebut menjadi text/flag,
 	pertama kita lakukan factor dari nilai modulus n <a href="factordb.com">factordb</a> dan didapatkanlah p dan q</p>
