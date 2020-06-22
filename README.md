@@ -8,5 +8,7 @@ CTF Writeup
   <img align="center" width="200" height="300" src="https://github.com/enomarozi/RSA-CTF-Writeup/blob/master/Picture2.png"/>
 </p>
 <img align="left" src="https://github.com/enomarozi/RSA-CTF-Writeup/blob/master/Picture3.png"/>
-CTFLearn-RSA Beginner
-<img align="center" src="https://github.com/enomarozi/RSA-CTF-Writeup/blob/master/Picture4.png">
+<p>CTFLearn-RSA Beginner</p>
+<p align="center">
+  <img src="https://github.com/enomarozi/RSA-CTF-Writeup/blob/master/Picture4.png">
+</p>
