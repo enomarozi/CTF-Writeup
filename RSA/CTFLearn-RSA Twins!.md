@@ -10,7 +10,7 @@
 	cari nilai invert atau d dengan library gmpy2 fungsi invert d=gmpy2.invert(e,phi)</p>
 
 <b><h2>Solution</h2></b>
-<pre>
+```python
 import gmpy2
 
 e = 65537
@@ -21,6 +21,6 @@ q = 1215882535595345734983200289345179903747212433353978114131291372539815022916
 phi = (p-1)*(q-1) 
 d = gmpy2.invert(e,phi)
 print(bytes.fromhex(hex(pow(c,d,n))[2:]).decode("ascii"))
-</pre>
+```
 <b><h2>Flag</h2></b>
 <pre>flag{i_l0v3_tw1N_pr1m3s}</pre>
