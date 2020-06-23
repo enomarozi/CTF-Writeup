@@ -16,7 +16,7 @@ c = 6407923537926201847312357068295079879508779752068254604904486842729636773279
 	cari nilai invert atau d dengan library gmpy2 fungsi invert d=gmpy2.invert(e,phi)</p>
 
 <b><h2>Solution</h2></b>
-<pre>
+```python
 import gmpy2
 
 e = 65537
@@ -27,8 +27,7 @@ q = 2877820523787450925749443223409676535526103461002156158445828224293671401993
 phi = (p-1)*(q-1) 
 d = gmpy2.invert(e,phi)
 print(bytes.fromhex(hex(pow(c,d,n))[2:]).decode("ascii"))
+```
 
-
-</pre>
 <b><h2>Flag</h2></b>
 <pre>CTFlearn{n0t_th4t_s3cur3_4ft3r_4ll}</pre>
