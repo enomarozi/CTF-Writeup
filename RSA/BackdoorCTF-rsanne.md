@@ -94,11 +94,9 @@ d = lambda p, q, e: int(gmpy2.invert(e, (p-1)*(q-1)))
 
 key = RSA.construct((p*q, e, d(p, q, e)))
 key = PKCS1_OAEP.new(key)
-fh = open("flag.enc","r")
-c = base64.b64decode(fh.read())
+with open('flag.enc') as fh:
+    c = base64.b64decode(fh.read())
 print(key.decrypt(c).decode())
-
-
 ```
 
 </pre>
