@@ -7,7 +7,7 @@
 <p>Dari jumlah paket yang tercapture, rata-rata itu adalah protocol HTTP. Bisa dilihat ditab info, bahwa protocol HTTP tersebut ada yang berupa file image atau data yang bisa dilihat <b>Klik kanan paket --> Follow --> TCP Stream</b>. Export semua paket data tersebut dalam bentuk file aslinya.</p>
 <p><b>Tab File --> Export Objects --> HTTP --> Save All</b></p>
 <p>Akan ada banyak file disana, dan untuk flagnya eksekusi <b>grep -iR flag</b> pada terminal, maka akan muncul flag dari file askldj3lkj234.php</p>
-<h3><b>Flag</b></h>
+<h3><b>Flag</b></h3>
 <pre>
 FLAG-GehFMsqCeNvof5szVpB2Dmjx
 </pre>
