@@ -1,8 +1,13 @@
 <h1><b>Detroit Become Human</b></h1>
 <p>Diberikan file ekstensi pcap</p>
-
+<p align="center">
+       <img src="https://github.com/enomarozi/CTF-Writeup/blob/master/Wireshark/Images/Detroit%20Become%20Human1.png">
+</p>
 <h3><b>Solution</b></h3>
 <p>Lakukan analisa terhadap requests protokol TCP dengan melihat keseluruhan semua TCP Stream, dimana terdapat beberapa potongan huruf yang jika disatukan itu berupa flag</p>
+<p align="center">
+    <img src="https://github.com/enomarozi/CTF-Writeup/blob/master/Wireshark/Images/Detroit%20Become%20Human2.png">
+</p>
 
 ```python
 from scapy.all import *
