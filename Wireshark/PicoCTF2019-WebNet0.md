@@ -5,5 +5,8 @@
 <h3><b>Solution</b></h3>
 <p></p>
 <p align="center">
+  <img width='500' src="https://github.com/enomarozi/CTF-Writeup/blob/master/Wireshark/Images/WebNet0_3.jpg">
+</p>
+<p align="center">
   <img src="https://github.com/enomarozi/CTF-Writeup/blob/master/Wireshark/Images/WebNet0_2.jpg">
 </p>
