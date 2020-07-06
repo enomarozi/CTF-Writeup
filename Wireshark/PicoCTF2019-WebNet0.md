@@ -10,10 +10,11 @@
 <p align="center">
   <img width='500' src="https://github.com/enomarozi/CTF-Writeup/blob/master/Wireshark/Images/WebNet0_3.jpg">
 </p>
-<p>Terakhir, lihat TLS stream <b>Klik 1 protokol TLS --> Follow --> TLS Stream</b>, dan flag terdapat pada stream index 0 seperti pada gambar dibawah<p>
+<p>Terakhir, periksa TLS stream <b>Klik 1 protokol TLS --> Follow --> TLS Stream</b>, dan flag terdapat pada stream index 0 seperti pada gambar dibawah<p>
 <p align="center">
   <img src="https://github.com/enomarozi/CTF-Writeup/blob/master/Wireshark/Images/WebNet0_2.jpg">
 </p>
+<p>Cara sederhana menggunakan tool tshark melalui terminal, eksekusi <b>tshark -r capture.pcap -o "ssl.keys_list:172.31.22.220,443,http,picopico.key" -qz follow,ssl,ascii,0</b> dan periksa setiap streamnya</p>
 <h3><b>Flag</b></h3>
 <pre>
 picoCTF{nongshim.shrimp.crackers}
