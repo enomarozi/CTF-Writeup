@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://github.com/enomarozi/CTF-Writeup/blob/master/Wireshark/Images/shark%20on%20wire%201_2.png">
 </p>
-<h3><b>Flag</b></h3>
+
 
 ```python3
 from scapy.all import *
@@ -20,7 +20,7 @@ for i in pcap[UDP]:
     except:
         pass
 ```
-
+<h3><b>Flag</b></h3>
 <pre>
 picoCTF{StaT31355_636f6e6e}
 </pre>
